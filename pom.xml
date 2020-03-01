@@ -9,8 +9,8 @@
   <url>http://maven.apache.org</url>
   
   <scm>
-		<url>https://github.com/pankajbhalerao1009/simple-java-maven-app.git</url>
-		<connection>scm:git:https://github.com/pankajbhalerao1009/simple-java-maven-app.git</connection>
+		<url>git@github.com:pankajbhalerao1009/simple-java-maven-app.git</url>
+		<connection>scm:git:git@github.com:pankajbhalerao1009/simple-java-maven-app.git</connection>
       <tag>HEAD</tag>
   </scm>
 	
