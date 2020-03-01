@@ -3,11 +3,11 @@
   <groupId>com.mycompany.app</groupId>
   <artifactId>my-app</artifactId>
   <packaging>jar</packaging>
-  <version>9.0</version>
+  <version>9.1-SNAPSHOT</version>
 	<scm>
 		<url>https://github.com/pankajbhalerao1009/simple-java-maven-app.git</url>
 		<connection>scm:git:https://github.com/pankajbhalerao1009/simple-java-maven-app.git</connection>
-      <tag>my-app-9.0</tag>
+      <tag>HEAD</tag>
   </scm>
 	
 	<!-- Repository Information -->
