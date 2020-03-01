@@ -58,4 +58,12 @@
   <url>https://github.com/pankajbhalerao1009/simple-java-maven-app.git</url>
   <tag>HEAD</tag>
 </scm>
+	
+	<distributionManagement>
+    <repository>
+      <id>Nexus</id>
+      <name>maven-releases</name>
+      <url>http://34.73.220.161:8081/repository/maven-releases/</url>
+    </repository>
+  </distributionManagement>
 </project>
