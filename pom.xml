@@ -44,9 +44,11 @@
       <configuration>
         <useReleaseProfile>false</useReleaseProfile>
         <releaseProfiles>release</releaseProfiles>
-        <autoVersionSubmodules>true</autoVersionSubmodules>
-		<pushChanges>false</pushChanges>
-        </configuration>
+	 <autoVersionSubmodules>true</autoVersionSubmodules>
+	<pushChanges>false</pushChanges>
+	 <localCheckout>true</localCheckout>
+         <pushChanges>false</pushChanges>
+         </configuration>
     </plugin>
     </plugins>
   </build>
