@@ -3,20 +3,12 @@
   <groupId>com.mycompany.app</groupId>
   <artifactId>my-app</artifactId>
   <packaging>jar</packaging>
-<<<<<<< HEAD
-  <version>9.1-SNAPSHOT</version>
-	<scm>
-		<url>https://github.com/pankajbhalerao1009/simple-java-maven-app.git</url>
-		<connection>scm:git:https://github.com/pankajbhalerao1009/simple-java-maven-app.git</connection>
-=======
   <version>1.0-SNAPSHOT</version>
 	 <name>my-app</name>
   <url>http://maven.apache.org</url>
-  
-  <scm>
+    <scm>
 		<url>git@github.com:pankajbhalerao1009/simple-java-maven-app.git</url>
 		<connection>scm:git:git@github.com:pankajbhalerao1009/simple-java-maven-app.git</connection>
->>>>>>> 8dd23ab045b122c53fbae506057005c84ca9cb3e
       <tag>HEAD</tag>
   </scm>
 	
