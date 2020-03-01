@@ -22,8 +22,9 @@
 				
 	</dependencies>
   <build>
-    <plugins>
-      <plugin>
+    <pluginManagement>
+      <plugins> 
+       <plugin>
         <!-- Build an executable JAR -->
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-jar-plugin</artifactId>
@@ -50,7 +51,7 @@
          <pushChanges>false</pushChanges>
          </configuration>
     </plugin>
-    </plugins>
+   
 	  
 	  <scm>
   <connection>scm:git:https://github.com/pankajbhalerao1009/simple-java-maven-app.git</connection>
@@ -64,6 +65,8 @@
 			 <url>http://34.73.220.161:8081/repository/mavenreleases</url>
 		</repository>
 	</distributionManagement>
-	  	  
-	   </build>
+	  	 
+	    </plugins>
+		</pluginManagement>
+		</build>
 </project>
