@@ -70,9 +70,7 @@
                  <branchBase>master</branchBase>
                     <useReleaseProfile>false</useReleaseProfile>
         <releaseProfiles>release</releaseProfiles>
-	 	<pushChanges>false</pushChanges>
-	 <localCheckout>true</localCheckout>
-         <pushChanges>false</pushChanges>
+	 	
          </configuration>
     </plugin>
     	 	  	 
