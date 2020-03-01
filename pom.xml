@@ -58,7 +58,7 @@
   <url>https://github.com/pankajbhalerao1009/simple-java-maven-app.git</url>
   <tag>HEAD</tag>
 </scm>
-	<<distributionManagement>
+	<distributionManagement>
 	  <repository>
 	  <id>mydeployment</id>
 	  <name>maven-releases</name>
