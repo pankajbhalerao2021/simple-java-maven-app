@@ -7,6 +7,28 @@
   <version>1.0-SNAPSHOT</version>
 	 <name>my-app</name>
   <url>http://maven.apache.org</url>
+  
+  <scm>
+		<url>https://github.com/pankajbhalerao1009/simple-java-maven-app.git</url>
+		<connection>scm:git:https://github.com/pankajbhalerao1009/simple-java-maven-app.git</connection>
+      <tag>HEAD</tag>
+  </scm>
+	
+	<!-- Repository Information -->
+	<distributionManagement>
+		<repository>
+			<id>nexus-releases</id>
+			<!-- http://localhost:8081/repository/<repository-name> -->
+			<url>http://34.73.220.161:8081/repository/maven-releases/</url>
+		</repository>
+		<snapshotRepository>
+			<id>nexus-snapshots</id>
+			<!-- http://localhost:8081/repository/<repository-name> -->
+			<url>http://34.73.220.161:8081/repository/maven-snapshots/</url>
+		</snapshotRepository>
+		
+	</distributionManagement>
+    	 	  	 
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -61,27 +83,7 @@
 				</dependencies>
     </plugin>
 	
-	<scm>
-		<url>https://github.com/pankajbhalerao1009/simple-java-maven-app.git</url>
-		<connection>scm:git:https://github.com/pankajbhalerao1009/simple-java-maven-app.git</connection>
-      <tag>HEAD</tag>
-  </scm>
 	
-	<!-- Repository Information -->
-	<distributionManagement>
-		<repository>
-			<id>nexus-releases</id>
-			<!-- http://localhost:8081/repository/<repository-name> -->
-			<url>http://34.73.220.161:8081/repository/maven-releases/</url>
-		</repository>
-		<snapshotRepository>
-			<id>nexus-snapshots</id>
-			<!-- http://localhost:8081/repository/<repository-name> -->
-			<url>http://34.73.220.161:8081/repository/maven-snapshots/</url>
-		</snapshotRepository>
-		
-	</distributionManagement>
-    	 	  	 
 	    </plugins>
 		</pluginManagement>
 		</build>
