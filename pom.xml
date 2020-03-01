@@ -51,7 +51,7 @@
          </configuration>
     </plugin>
     </plugins>
-  </build>
+ 
   <scm>
   <connection>scm:git:https://github.com/pankajbhalerao1009/simple-java-maven-app.git</connection>
   <developerConnection>scm:git:https://github.com/pankajbhalerao1009/simple-java-maven-app.git</developerConnection>
@@ -70,4 +70,5 @@
 	  <url>http://34.73.220.161:8081/repository/maven-snapshots/</url>
 	  </snapshotRepository>
 	  </distributionManagement>
+	   </build>
 </project>
