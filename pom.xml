@@ -51,14 +51,7 @@
          <pushChanges>false</pushChanges>
          </configuration>
     </plugin>
-    
-	 
- 	<distributionManagement>
-		<repository>
-			<id>nexus-releases</id>
-			 <url>http://34.73.220.161:8081/repository/mavenreleases</url>
-		</repository>
-	</distributionManagement>
+    	 
 	  	 
 	    </plugins>
 		</pluginManagement>
