@@ -51,16 +51,9 @@
          </configuration>
     </plugin>
     </plugins>
- 
-  <scm>
-  <connection>scm:git:https://github.com/pankajbhalerao1009/simple-java-maven-app.git</connection>
-  <developerConnection>scm:git:https://github.com/pankajbhalerao1009/simple-java-maven-app.git</developerConnection>
-  <url>https://github.com/pankajbhalerao1009/simple-java-maven-app.git</url>
-  <tag>HEAD</tag>
-</scm>
-	<distributionManagement>
+ 	<distributionManagement>
 	  <repository>
-	  <id>mydeployment</id>
+	  <id>Nexus</id>
 	  <name>maven-releases</name>
 	  <url>http://34.73.220.161:8081/repository/mavenreleases/</url>
 	  </repository>
@@ -70,5 +63,12 @@
 	  <url>http://34.73.220.161:8081/repository/maven-snapshots/</url>
 	  </snapshotRepository>
 	  </distributionManagement>
+	  
+	  <scm>
+  <connection>scm:git:https://github.com/pankajbhalerao1009/simple-java-maven-app.git</connection>
+  <developerConnection>scm:git:https://github.com/pankajbhalerao1009/simple-java-maven-app.git</developerConnection>
+  <url>https://github.com/pankajbhalerao1009/simple-java-maven-app.git</url>
+  <tag>HEAD</tag>
+</scm>
 	   </build>
 </project>
