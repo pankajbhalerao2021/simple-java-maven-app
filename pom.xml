@@ -67,11 +67,7 @@
 	      
 	            <tagNameFormat>v@{project.version}</tagNameFormat>
                 <autoVersionSubmodules>true</autoVersionSubmodules>
-                <checkModificationExcludes>
-                    <checkModificationExclude>pom.xml</checkModificationExclude>
-                    <checkModificationExclude>*/pom.xml</checkModificationExclude>
-                </checkModificationExcludes>
-                <branchBase>master</branchBase>
+                 <branchBase>master</branchBase>
                     <useReleaseProfile>false</useReleaseProfile>
         <releaseProfiles>release</releaseProfiles>
 	 	<pushChanges>false</pushChanges>
