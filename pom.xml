@@ -72,7 +72,7 @@
                     <checkModificationExclude>pom.xml</checkModificationExclude>
                     <checkModificationExclude>*/pom.xml</checkModificationExclude>
                 </checkModificationExcludes>
-	      <pushChanges>false</pushChanges>
+	      <pushChanges>true</pushChanges>
 	 <localCheckout>true</localCheckout>
                  <branchBase>master</branchBase>
                     <useReleaseProfile>false</useReleaseProfile>
